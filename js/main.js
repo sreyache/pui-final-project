@@ -22,7 +22,7 @@ function changeCalendar() {
     var month = document.getElementById("month-selector").value;
     console.log(month);
 
-    var pathname = "img/calendar/" + month + ".png";
+    var pathname = "https://sreyache.github.io/pui-final-project/img/calendar/" + month + ".png";
 
     var image = document.getElementById('calendar_image');
     image.src = pathname;
@@ -74,7 +74,6 @@ function loadName() {
         parent.removeChild(parent.firstChild);
     }
 
-
     var nameintro = document.createElement('h3');
     var br = document.createElement('br');
     nameintro.innerHTML = welcome;
@@ -84,11 +83,38 @@ function loadName() {
     document.getElementById("show_location_options").style.display = "block";
 }
 
-function submitLocation () {
+let locations = [];
+
+function submitLocation(locationid) {
+    locationid = locationid.id;
+    console.log(locationid);
+    
+    locationvalue = document.getElementById(locationid).getElementsByClassName("locationname")[0].value;
+
+    parent = document.getElementById(locationid);
+    console.log(parent);
+
+    child1 = document.getElementById(locationid).getElementsByClassName("submit_location")[0];
+    child2 = document.getElementById(locationid).getElementsByClassName("locationname")[0];
+    console.log(child1);
+
+    parent.removeChild(child1);
+    parent.removeChild(child2);
+
+    var newlocation = document.createElement('h4');
+    newlocation.class = "locationtitle";
+    newlocation.innerHTML = locationvalue;
+    parent.appendChild(newlocation);
+
+}
+
+function finishedLocations() {
     document.getElementById("calendar-column").style.display = "block";
     document.getElementById("availability-column").style.display = "block";
+
 }
 
 function submitAvailability() {
     console.log("availability-submitted");
+
 }

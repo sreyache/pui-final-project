@@ -124,3 +124,20 @@ label .switch {
 span {
   color:#C87D68;
 }
+
+.location_picker {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  padding: 10px;
+}
+
+#see_calendar {
+  justify-self: center;
+}
+
+.locationtitle {
+  color: pink;
+}

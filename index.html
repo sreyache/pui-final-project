@@ -27,7 +27,7 @@
 <body onload="load()">
     <div class="jumbotron text-center">
         <h3>Let's adventure in 2022! <i class="material-icons">flight</i></h3>
-        <p>Using this tool let's find a weekend for our next journey.</p> 
+        <p>Using this tool we can find the best weekend for our next journey.</p> 
     </div>
     <div class="container">
         <div class="row">
@@ -45,23 +45,32 @@
                 <div id="show_location_options">
                     <h4>Where do you want to go?</h4>
                     <p>Pick your top three places that you're excited on traveling to in 2022.</p>
-                    <div class = "location_picker form-check-inline" >
+                    <div class = "location_picker form-check-inline" id="location1">
                         <label class="number_location" for="flocation">01</label>
-                        <input class="form-control" type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
-                        <button class = "btn btn-default submit_location" id="bl1">Enter</button>
+                        <input class="form-control  locationname" type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
+                        <button class= "btn btn-default submit_location" id="bl1" onclick = "submitLocation(this.parentNode)">Enter</button>
                     </div>
                     <br>
-                    <div class = "location_picker form-check-inline">
+                    <div class = "location_picker form-check-inline" id="location2">
                         <label class="number_location" for="slocation">02</label>
-                        <input class="form-control" type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
-                        <button class = "btn btn-default submit_location" id="bl2">Enter</button>
+                        <input class="form-control locationname" type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
+                        <button class = "btn btn-default submit_location" id="bl2" onclick = "submitLocation(this.parentNode)">Enter</button>
                     </div>
                     <br>
-                    <div class = "location_picker form-check-inline">
+                    <div class = "location_picker form-check-inline" id="location3">
                         <label class="number_location" for="tlocation">03</label>
-                        <input class="form-control" type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
-                        <button class = "btn btn-default submit_location" id="bl3">Enter</button>
+                        <input class="form-control locationname" type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
+                        <button class = "btn btn-default submit_location" id="bl3" onclick = "submitLocation(this.parentNode)">Enter</button>
                     </div>
+                    <hr>
+                    <div class="justify-content-center">
+                        <button onclick="finishedLocations()" type="button" class="btn btn-link" id="see_calendar">
+                            See Calendar →
+                        </button>
+                        
+                    </div>
+                    
+                    
                 </div>
 
             </div>
