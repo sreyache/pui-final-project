@@ -22,7 +22,7 @@ function changeCalendar() {
     var month = document.getElementById("month-selector").value;
     console.log(month);
 
-    var pathname = "https://sreyache.github.io/pui-final-project/img/calendar/" + month + ".png";
+    var pathname = "img/calendar/" + month + ".png";
 
     var image = document.getElementById('calendar_image');
     image.src = pathname;
