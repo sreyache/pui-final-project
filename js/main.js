@@ -14,11 +14,15 @@ fetch("https://sreyache.github.io/pui-final-project/assets/daysofyear.json")
 
   function changeCalendar() {
       console.log("calendar changed");
-      var content = document.getElementById("month-selector").value;
-      console.log(content);
+      
+      var month = document.getElementById("month-selector").value;
+      console.log(month);
 
-      var image_name = document.getElementById("month-selector").value;
-      console.log(daysofyear[1]);
+      var pathname = "img/calendar/" + month + ".png";
+   
+      var image = document.getElementById('calendar_image');
+      image.src = pathname;
+      
   }
 
 
