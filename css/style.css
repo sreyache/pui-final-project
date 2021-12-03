@@ -2,9 +2,6 @@ body {
   margin: 0px;
 }
 
-.container {
-
-}
 
 img {
   width: 100%;
@@ -73,9 +70,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-label .switch {
-  display: none;
-}
 
 /* CALENDAR ANIMATION */
 @keyframes cf3FadeInOut {
@@ -139,6 +133,3 @@ label {
   color: pink;
 }
 
-label .switch {
-  display: none;
-}
