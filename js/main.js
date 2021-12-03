@@ -1,4 +1,3 @@
-
 let weekends = []
 
 //READ JSON FILE
@@ -14,9 +13,8 @@ fetch("https://sreyache.github.io/pui-final-project/assets/2022_weekends.json")
   })
   .catch(error => console.log(error));
 
-
 //DYNAMICALLY CHANGE CALENDAR IMAGE BASED ON INPUT FROM DROPDOWN
-function changeCalendar() {
+function changeMonth() {
     console.log("calendar changed");
 
     var month = document.getElementById("month-selector").value;
@@ -26,22 +24,9 @@ function changeCalendar() {
 
     var image = document.getElementById('calendar_image');
     image.src = pathname;
+
+    findDates(month);
 }
-
-//IDENTIFY WEEKENDS WITHIN A GIVEN MONTH
-function findDates(month) {
-    var given_month = month;
-    var monthweekend = []
-
-    for (var i in weekends) {
-        if (weekends[i].month1 == given_month) {
-            monthweekend.push(weekends[i]);
-            console.log("weekends-found");
-        }
-    }
-   return monthweekend; 
-}
-
 
 //FIND INITIAL DATES
 function load() {
@@ -50,9 +35,8 @@ function load() {
     }    
 
     var current_month = document.getElementById("month-selector").value;
-    var live_weekends = findDates(current_month);
+    findDates(current_month);
     
-    console.log(live_weekends);
     
     document.getElementById("show_location_options").style.display = "none";
 
@@ -83,8 +67,7 @@ function loadName() {
     document.getElementById("show_location_options").style.display = "block";
 }
 
-let locations = [];
-
+//REPLACE LOCATIONS WITH INPUT GIVEN
 function submitLocation(locationid) {
     locationid = locationid.id;
     console.log(locationid);
@@ -108,13 +91,58 @@ function submitLocation(locationid) {
 
 }
 
+//SHOW THE CALENDAR ONCE USER DONE UNPUTTING LOCATIONS
 function finishedLocations() {
     document.getElementById("calendar-column").style.display = "block";
     document.getElementById("availability-column").style.display = "block";
+}
+
+//SHOW DATE CHANGES IN THE DOM
+function showDates(weekends) {
+    
+    var datetext = [];
+
+    for (var i in weekends) {
+        txt = weekends[i].month1 + " " + weekends[i].day1 + "-" + weekends[i].month2 + " " + weekends[i].day2;
+        datetext.push(txt);
+    }
+    
+    console.log(datetext);
+    datelistings = document.getElementsByClassName("date_toggle");
+
+    if (datetext.length == 4){
+        for (var i in datetext) {
+            listingid = datelistings[i].id;
+            document.getElementById(listingid).innerHTML = datetext[i];
+        }
+        document.getElementById("date5").innerHTML = "";
+    }
+    else {
+        for (var i in datetext) {
+            listingid = datelistings[i].id;
+            document.getElementById(listingid).innerHTML = datetext[i];
+        }
+    }
+
 
 }
 
+//UPDATE THE MASTER VARIABLE WITH CHANGES
 function submitAvailability() {
     console.log("availability-submitted");
+}
 
+//IDENTIFY WEEKENDS WITHIN A GIVEN MONTH
+function findDates(month) {
+    var given_month = month;
+    var monthweekend = [];
+
+    for (var i in weekends) {
+        if (weekends[i].month1 == given_month) {
+            monthweekend.push(weekends[i]);
+            console.log("weekends-found");
+        }
+    }
+    showDates(monthweekend);
+    return monthweekend;
 }

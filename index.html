@@ -83,7 +83,7 @@
                 <p>Choose a month to input your avaiability.</p>
                 <div class="select-dropdown">
                     <label for="month-selector">Month: </label>
-                    <select class="form-control" id="month-selector" onchange="changeCalendar()">
+                    <select class="form-control" id="month-selector" onchange="changeMonth()">
                         <option value="January">January</option>
                         <option value="February">February</option>
                         <option value="March">March</option>
@@ -110,42 +110,43 @@
                 <br>
                 <h3>Availability</h3>        
                 <p>Toggle the switch to indicate which weekends you're available!</p>
-                <div class="row" id="date1">
-                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch"> Weekend 1
-                        <input type="checkbox">
+                <hr>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8 date_toggle" id="date1">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch" for="date1_toggle"> 
+                        <input type="checkbox" id="date1_toggle">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row" id="date2">
-                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch"> Weekend 2
-                        <input type="checkbox">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8 date_toggle"  id="date2">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch" for="date2_toggle">
+                        <input type="checkbox" id="date2_toggle">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row" id="date3">
-                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch"> Weekend 3
-                        <input type="checkbox">
+                <div class="row" >
+                    <div class="col-xs-4 col-sm-8 date_toggle" id="date3">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch" for="date3_toggle">
+                        <input type="checkbox" id="date3_toggle">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row" id="date4">
-                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch"> Weekend 4
-                        <input type="checkbox">
+                <div class="row" >
+                    <div class="col-xs-4 col-sm-8 date_toggle" id="date4">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch" for="date4_toggle">
+                        <input type="checkbox" id="date4_toggle">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row" id="date5">
-                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch"> Weekend 5
-                        <input type="checkbox">
+                <div class="row" id="fifth">
+                    <div class="col-xs-4 col-sm-8 date_toggle" id="date5">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch" for="date5_toggle"> 
+                        <input type="checkbox" id="date5_toggle">
                         <span class="slider round"></span>
                     </label></div>
                 </div>

@@ -141,3 +141,7 @@ label {
 .locationtitle {
   color: pink;
 }
+
+label .switch {
+  display: none;
+}
