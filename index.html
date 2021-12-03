@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div>
-        
+                    <br>
                     <h4>Let's get started!</h4>
                     <label for="firstname">Your Name</label>
                     <input type="text" class="form-control" id="firstname" placeholder="Enter Your Name" id="submit_name">
@@ -66,6 +66,7 @@
             
             
             <div class="col-sm-4">
+                <br>
                 <h3>Calendar</h3>
                 <p>Choose a month to input your avaiability.</p>
                 <div class="select-dropdown">
@@ -94,46 +95,49 @@
             
             
             <div class="col-sm-4">
+                <br>
                 <h3>Availability</h3>        
                 <p>Toggle the switch to indicate which weekends you're available!</p>
-                <div class="row">
+                <div class="row" id="date1">
                     <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                    <div class="col-xs-4 col-sm-4">Weekend 1<label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row">
+                <div class="row" id="date2">
                     <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                    <div class="col-xs-4 col-sm-4">Weekend 2<label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row">
+                <div class="row" id="date3">
                     <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                    <div class="col-xs-4 col-sm-4">Weekend 3<label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
                 <hr>
-                <div class="row">
+                <div class="row" id="date4">
                     <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                    <div class="col-xs-4 col-sm-4">Weekend 4<label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
-                <div class="row">
+                <hr>
+                <div class="row" id="date5">
                     <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
-                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                    <div class="col-xs-4 col-sm-4">Weekend 5<label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label></div>
                 </div>
+                <br>
                 <button onclick="submitAvailability()" type="Next" class="btn btn-default" >Submit</button>
             </div>
 
