@@ -42,7 +42,6 @@ function findDates(month) {
    return monthweekend; 
 }
 
-let targetDiv1 = document.getElementById("show_location_options");
 
 //FIND INITIAL DATES
 function load() {
@@ -55,13 +54,11 @@ function load() {
     
     console.log(live_weekends);
     
-    targetDiv1.style.display = "none";
+    document.getElementById("show_location_options").style.display = "none";
 
-    const targetDiv2 = document.getElementById("calendar-column");
-    targetDiv2.style.display = "none";
+    document.getElementById("calendar-column").style.display = "none";
 
-    const targetDiv3 = document.getElementById("availability-column");
-    targetDiv3.style.display = "none";
+    document.getElementById("availability-column").style.display = "none";
 
 }
 
@@ -69,11 +66,27 @@ function load() {
 function loadName() {
     console.log("name-recorded");
     var name = document.getElementById("firstname").value;
+    var welcome = "Hi " + " <span>" + name + "</span>" + ",";
     console.log(name);
 
-    targetDiv2.style.display = "block";
-    
+    parent = document.getElementById("starter");
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
 
+
+    var nameintro = document.createElement('h3');
+    var br = document.createElement('br');
+    nameintro.innerHTML = welcome;
+    parent.appendChild(br);
+    parent.appendChild(nameintro);
+
+    document.getElementById("show_location_options").style.display = "block";
+}
+
+function submitLocation () {
+    document.getElementById("calendar-column").style.display = "block";
+    document.getElementById("availability-column").style.display = "block";
 }
 
 function submitAvailability() {

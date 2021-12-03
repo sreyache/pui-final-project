@@ -115,3 +115,12 @@ label .switch {
   background-size: cover;
   color: white;
 }
+
+.number_location {
+  font-style: bold;
+  color: gray;
+}
+
+span {
+  color:#C87D68;
+}
