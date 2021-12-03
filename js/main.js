@@ -28,6 +28,7 @@ function changeCalendar() {
     image.src = pathname;
 }
 
+//IDENTIFY WEEKENDS WITHIN A GIVEN MONTH
 function findDates(month) {
     var given_month = month;
     var monthweekend = []
@@ -35,17 +36,27 @@ function findDates(month) {
     for (var i in weekends) {
         if (weekends[i].month1 == given_month) {
             monthweekend.push(weekends[i]);
-            console.log("weekends-found")
+            console.log("weekends-found");
         }
     }
    return monthweekend; 
 }
 
+//FIND INITIAL DATES
 function load() {
+    for (var i in weekends) {
+        weekends[i].availability = "";
+    }    
+
     var current_month = document.getElementById("month-selector").value;
     var live_weekends = findDates(current_month);
-
+    
     console.log(live_weekends);
+    
+    const targetDiv = document.getElementById("show_location_options");
+    targetDiv.style.display = "none";
+
+    
 
 }
 

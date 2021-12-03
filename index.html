@@ -26,36 +26,50 @@
 <body onload="load()">
     <div class="container">
         <div class="row">
+           
+
             <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            <h3>Your Places</h3>
-            <p>Pick your top three places that you're excited on traveling to in 2022.</p>
-            <div>
-                <label class="number_location" for="flocation">01</label>
-                <input type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
-                <button class=submit_location id="bl1">Enter</button>
-            </div>
-            <div>
-                <label class="number_location" for="slocation">02</label>
-                <input type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
-                <button class=submit_location id="bl2">Enter</button>
-            </div>
-            <div>
-                <label class="number_location" for="tlocation">03</label>
-                <input type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
-                <button class=submit_location id="bl3">Enter</button>
-            </div>
-            </div>
-            <div class="col-sm-4">
-                <h3>Column 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                <div class="select-dropdown">
-                    <label for="month-selector">Month</label>
+                <div>
+                    <h3>h1. Bootstrap heading <small>Secondary text</small></h3>
+                    <h3>Hi there!</h3>
+                    <p>Can't wait to start traveling with you in 2022.</p>
+                    
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter Your Name">
                     <br>
-                    <select id="month-selector" onchange="changeCalendar()">
+                    <button type="Next" class="btn btn-default">Submit</button>
+                </div>
+
+                <div id="show_location_options">
+                    <h3>Your Places</h3>
+                    <p>Pick your top three places that you're excited on traveling to in 2022.</p>
+                    <div class = "location_picker">
+                        <label class="number_location" for="flocation">01</label>
+                        <input type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
+                        <button class = "btn btn-default submit_location" id="bl1">Enter</button>
+                    </div>
+                    <div class = "location_picker">
+                        <label class="number_location" for="slocation">02</label>
+                        <input type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
+                        <button class = "btn btn-default submit_location" id="bl2">Enter</button>
+                    </div>
+                    <div class = "location_picker">
+                        <label class="number_location" for="tlocation">03</label>
+                        <input type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
+                        <button class = "btn btn-default submit_location" id="bl3">Enter</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            
+            
+            <div class="col-sm-4">
+                <h3>Calendar</h3>
+                <p>Choose a month to input your avaiability.</p>
+                <div class="select-dropdown">
+                    <label for="month-selector">Month: </label>
+                    <select class="form-control" id="month-selector" onchange="changeCalendar()">
                         <option value="January">January</option>
                         <option value="February">February</option>
                         <option value="March">March</option>
@@ -71,15 +85,52 @@
                     </select>
                 </div>
                 <br>
-                <div>
-                    <img src="img/calendar/january.png" alt="wishlist-logo" class="logo" id="calendar_image"/>
+                <div class="calendar_image">
+                    <img src="img/calendar/january.png" alt="calendar-image" class="logo img-responsive" id="calendar_image"/>
                 </div>
             </div>
+            
+            
+            
             <div class="col-sm-4">
-                <h3>Column 3</h3>        
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <h3>Availability</h3>        
+                <p>Toggle the switch to indicate which weekends you're available!</p>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label></div>
+                </div>
             </div>
+
+
+
+
         </div>
       </div>
 </body>
