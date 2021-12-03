@@ -12,6 +12,7 @@
 
     <!-- Linking Fonts -->
     <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');</style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
     <!-- Linking CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -24,22 +25,22 @@
 
 </head>
 <body onload="load()">
+    <div class="jumbotron text-center">
+        <h3>Let's adventure in 2022! <i class="material-icons">flight</i></h3>
+        <p>Using this tool let's find a weekend for our next journey.</p> 
+    </div>
     <div class="container">
         <div class="row">
-           
-
             <div class="col-sm-4">
                 <div>
-                    <h3>h1. Bootstrap heading <small>Secondary text</small></h3>
-                    <h3>Hi there!</h3>
-                    <p>Can't wait to start traveling with you in 2022.</p>
-                    
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Enter Your Name">
+        
+                    <h4>Let's get started!</h4>
+                    <label for="firstname">Your Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter Your Name" id="submit_name">
                     <br>
-                    <button type="Next" class="btn btn-default">Submit</button>
+                    <button onclick="loadName()" type="Next" class="btn btn-default" >Submit</button>
                 </div>
-
+                <br>
                 <div id="show_location_options">
                     <h3>Your Places</h3>
                     <p>Pick your top three places that you're excited on traveling to in 2022.</p>
@@ -126,6 +127,14 @@
                         <span class="slider round"></span>
                     </label></div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-8">January 1 - January 3</div>
+                    <div class="col-xs-4 col-sm-4"><label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label></div>
+                </div>
+                <button onclick="submitAvailability()" type="Next" class="btn btn-default" >Submit</button>
             </div>
 
 

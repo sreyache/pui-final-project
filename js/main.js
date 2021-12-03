@@ -56,11 +56,20 @@ function load() {
     const targetDiv = document.getElementById("show_location_options");
     targetDiv.style.display = "none";
 
-    
+
 
 }
 
+function loadName() {
+    console.log("name-recorded");
+    var name = document.getElementById("firstname").value;
+    console.log(name);
 
+}
+
+function submitAvailability() {
+    console.log("availability-submitted");
+}
 
 //DATE CONSTRUCTOR
 // function Date (day, month, dow) {
