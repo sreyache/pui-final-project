@@ -26,23 +26,60 @@
 <body>
     <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+            <div class="col-sm-4">
             <h3>Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-3">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-6">
-            <h3>Column 3</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-          <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <h3>Your Places</h3>
+            <p>Pick your top three places that you're excited on traveling to in 2022.</p>
+            <div>
+                <label class="number_location" for="flocation">01</label>
+                <input type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
+                <button class=submit_location id="bl1">Enter</button>
+            </div>
+            <div>
+                <label class="number_location" for="slocation">02</label>
+                <input type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
+                <button class=submit_location id="bl2">Enter</button>
+            </div>
+            <div>
+                <label class="number_location" for="tlocation">03</label>
+                <input type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
+                <button class=submit_location id="bl3">Enter</button>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <div class="select-dropdown">
+                    <select id="month-selector" onchange="changeCalendar()">
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <img src="img/calendar/Days.png" alt="wishlist-logo" class="logo"/>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 3</h3>        
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
         </div>
       </div>
 </body>
