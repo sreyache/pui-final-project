@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <div>
+                <div id="starter">
                     <br>
                     <h4>Let's get started!</h4>
                     <br>
@@ -45,19 +45,19 @@
                 <div id="show_location_options">
                     <h3>Your Places</h3>
                     <p>Pick your top three places that you're excited on traveling to in 2022.</p>
-                    <div class = "location_picker">
+                    <div class = "location_picker form-check-inline" >
                         <label class="number_location" for="flocation">01</label>
-                        <input type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
+                        <input class="form-control" type="text" id="flocation" name="firstloation" placeholder="Enter City, State">
                         <button class = "btn btn-default submit_location" id="bl1">Enter</button>
                     </div>
-                    <div class = "location_picker">
+                    <div class = "location_picker form-check-inline">
                         <label class="number_location" for="slocation">02</label>
-                        <input type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
+                        <input class="form-control" type="text" id="slocation" name="firstloation" placeholder="Enter City, State">
                         <button class = "btn btn-default submit_location" id="bl2">Enter</button>
                     </div>
-                    <div class = "location_picker">
+                    <div class = "location_picker form-check-inline">
                         <label class="number_location" for="tlocation">03</label>
-                        <input type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
+                        <input class="form-control" type="text" id="tlocation" name="firstloation" placeholder="Enter City, State">
                         <button class = "btn btn-default submit_location" id="bl3">Enter</button>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
             
             
             
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="calendar-column">
                 <br>
                 <h3>Calendar</h3>
                 <p>Choose a month to input your avaiability.</p>
@@ -95,7 +95,7 @@
             
             
             
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="availability-column">
                 <br>
                 <h3>Availability</h3>        
                 <p>Toggle the switch to indicate which weekends you're available!</p>

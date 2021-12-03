@@ -42,6 +42,8 @@ function findDates(month) {
    return monthweekend; 
 }
 
+let targetDiv1 = document.getElementById("show_location_options");
+
 //FIND INITIAL DATES
 function load() {
     for (var i in weekends) {
@@ -53,37 +55,27 @@ function load() {
     
     console.log(live_weekends);
     
-    const targetDiv = document.getElementById("show_location_options");
-    targetDiv.style.display = "none";
+    targetDiv1.style.display = "none";
 
+    const targetDiv2 = document.getElementById("calendar-column");
+    targetDiv2.style.display = "none";
 
+    const targetDiv3 = document.getElementById("availability-column");
+    targetDiv3.style.display = "none";
 
 }
 
+// REPLACE NAME WITH INPUTTED NAME
 function loadName() {
     console.log("name-recorded");
     var name = document.getElementById("firstname").value;
     console.log(name);
+
+    targetDiv2.style.display = "block";
+    
 
 }
 
 function submitAvailability() {
     console.log("availability-submitted");
 }
-
-//DATE CONSTRUCTOR
-// function Date (day, month, dow) {
-//     console.log("the weekend");
-// }
-
-//MATCHING WEEKENDS 
-//FIND THE FIRST FRIDAY
-
-
-
-//REPLACE LOCATION FIELD WITH SUBMITTED CONTENT
-
-// function replaceField() {
-
-// }
-
