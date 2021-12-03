@@ -1,0 +1,426 @@
+[
+  {
+    "month1": "January",
+    "day1": 1,
+    "dow1": "Saturday",
+    "month2": "January",
+    "day2": 2,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "January",
+    "day1": 7,
+    "dow1": "Friday",
+    "month2": "January",
+    "day2": 9,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "January",
+    "day1": 14,
+    "dow1": "Friday",
+    "month2": "January",
+    "day2": 16,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "January",
+    "day1": 21,
+    "dow1": "Friday",
+    "month2": "January",
+    "day2": 23,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "January",
+    "day1": 28,
+    "dow1": "Friday",
+    "month2": "January",
+    "day2": 30,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "February",
+    "day1": 4,
+    "dow1": "Friday",
+    "month2": "February",
+    "day2": 6,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "February",
+    "day1": 11,
+    "dow1": "Friday",
+    "month2": "February",
+    "day2": 13,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "February",
+    "day1": 18,
+    "dow1": "Friday",
+    "month2": "February",
+    "day2": 20,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "February",
+    "day1": 25,
+    "dow1": "Friday",
+    "month2": "February",
+    "day2": 27,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "March",
+    "day1": 4,
+    "dow1": "Friday",
+    "month2": "March",
+    "day2": 6,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "March",
+    "day1": 11,
+    "dow1": "Friday",
+    "month2": "March",
+    "day2": 13,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "March",
+    "day1": 18,
+    "dow1": "Friday",
+    "month2": "March",
+    "day2": 20,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "March",
+    "day1": 25,
+    "dow1": "Friday",
+    "month2": "March",
+    "day2": 27,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "April",
+    "day1": 1,
+    "dow1": "Friday",
+    "month2": "April",
+    "day2": 3,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "April",
+    "day1": 8,
+    "dow1": "Friday",
+    "month2": "April",
+    "day2": 10,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "April",
+    "day1": 15,
+    "dow1": "Friday",
+    "month2": "April",
+    "day2": 17,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "April",
+    "day1": 22,
+    "dow1": "Friday",
+    "month2": "April",
+    "day2": 24,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "April",
+    "day1": 29,
+    "dow1": "Friday",
+    "month2": "May",
+    "day2": 1,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "May",
+    "day1": 6,
+    "dow1": "Friday",
+    "month2": "May",
+    "day2": 8,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "May",
+    "day1": 13,
+    "dow1": "Friday",
+    "month2": "May",
+    "day2": 15,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "May",
+    "day1": 20,
+    "dow1": "Friday",
+    "month2": "May",
+    "day2": 22,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "May",
+    "day1": 27,
+    "dow1": "Friday",
+    "month2": "May",
+    "day2": 29,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "June",
+    "day1": 3,
+    "dow1": "Friday",
+    "month2": "June",
+    "day2": 5,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "June",
+    "day1": 10,
+    "dow1": "Friday",
+    "month2": "June",
+    "day2": 12,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "June",
+    "day1": 17,
+    "dow1": "Friday",
+    "month2": "June",
+    "day2": 19,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "June",
+    "day1": 24,
+    "dow1": "Friday",
+    "month2": "June",
+    "day2": 26,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "July",
+    "day1": 1,
+    "dow1": "Friday",
+    "month2": "July",
+    "day2": 3,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "July",
+    "day1": 8,
+    "dow1": "Friday",
+    "month2": "July",
+    "day2": 10,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "July",
+    "day1": 15,
+    "dow1": "Friday",
+    "month2": "July",
+    "day2": 17,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "July",
+    "day1": 22,
+    "dow1": "Friday",
+    "month2": "July",
+    "day2": 24,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "July",
+    "day1": 29,
+    "dow1": "Friday",
+    "month2": "July",
+    "day2": 31,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "August",
+    "day1": 5,
+    "dow1": "Friday",
+    "month2": "August",
+    "day2": 7,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "August",
+    "day1": 12,
+    "dow1": "Friday",
+    "month2": "August",
+    "day2": 14,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "August",
+    "day1": 19,
+    "dow1": "Friday",
+    "month2": "August",
+    "day2": 21,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "August",
+    "day1": 26,
+    "dow1": "Friday",
+    "month2": "August",
+    "day2": 28,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "September",
+    "day1": 2,
+    "dow1": "Friday",
+    "month2": "September",
+    "day2": 4,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "September",
+    "day1": 9,
+    "dow1": "Friday",
+    "month2": "September",
+    "day2": 11,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "September",
+    "day1": 16,
+    "dow1": "Friday",
+    "month2": "September",
+    "day2": 18,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "September",
+    "day1": 23,
+    "dow1": "Friday",
+    "month2": "September",
+    "day2": 25,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "September",
+    "day1": 30,
+    "dow1": "Friday",
+    "month2": "October",
+    "day2": 2,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "October",
+    "day1": 7,
+    "dow1": "Friday",
+    "month2": "October",
+    "day2": 9,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "October",
+    "day1": 14,
+    "dow1": "Friday",
+    "month2": "October",
+    "day2": 16,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "October",
+    "day1": 21,
+    "dow1": "Friday",
+    "month2": "October",
+    "day2": 23,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "October",
+    "day1": 28,
+    "dow1": "Friday",
+    "month2": "October",
+    "day2": 30,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "November",
+    "day1": 4,
+    "dow1": "Friday",
+    "month2": "November",
+    "day2": 6,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "November",
+    "day1": 11,
+    "dow1": "Friday",
+    "month2": "November",
+    "day2": 13,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "November",
+    "day1": 18,
+    "dow1": "Friday",
+    "month2": "November",
+    "day2": 20,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "November",
+    "day1": 25,
+    "dow1": "Friday",
+    "month2": "November",
+    "day2": 27,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "December",
+    "day1": 2,
+    "dow1": "Friday",
+    "month2": "December",
+    "day2": 4,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "December",
+    "day1": 9,
+    "dow1": "Friday",
+    "month2": "December",
+    "day2": 11,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "December",
+    "day1": 16,
+    "dow1": "Friday",
+    "month2": "December",
+    "day2": 18,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "December",
+    "day1": 23,
+    "dow1": "Friday",
+    "month2": "December",
+    "day2": 25,
+    "dow2": "Sunday"
+  },
+  {
+    "month1": "December",
+    "day1": 30,
+    "dow1": "Friday",
+    "month2": "January",
+    "day2": 1,
+    "dow2": "Sunday"
+  }
+]
